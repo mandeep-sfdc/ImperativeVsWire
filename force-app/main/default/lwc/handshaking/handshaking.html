@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Wired vs Imperative" icon-name="custom:custom63">
+         <div class="slds-m-around_medium">
+            <lightning-input label="A" class="slds-m-bottom_small"  onchange={updateA} value={a}></lightning-input>
+            <lightning-input label="B" class="slds-m-bottom_small"  onchange={updateB} value={b}></lightning-input>
+            <lightning-button label="Add A and B Imperatively" onclick={sumAB}></lightning-button> <br/> 
+            
+            <template if:true={errorMsg}>
+                <span class="blinking slds-text-align_center"> {errorMsg} </span>                
+            </template> <br/>
+
+            <template if:true={wSum}>
+                <div class="demo-only" style="padding:0.5rem;background:#16325c">
+                    <div class="slds-text-color_inverse slds-text-align_center">Wired Sum = {wSum}</div>
+                </div>
+            </template> <br/>
+
+            <template if:true={imperativeSum}>
+                <div class="demo-only" style="padding:0.5rem;background:#16325c">
+                    <div class="slds-text-color_inverse slds-text-align_center">Imperetive Sum = {imperativeSum}</div>
+                </div>
+            </template> <br/>
+        </div>
+    </lightning-card>
+</template>
