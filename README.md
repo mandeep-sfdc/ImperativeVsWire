@@ -6,13 +6,14 @@ https://user-images.githubusercontent.com/97949157/165515591-659d0ee5-af7d-4a87-
 
 
 
-# Salesforce DX Project: Next Steps
+# Imperative vs Wire in LWC
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+When to chose Imperative over Wire in LWC in Salesforce
 
 ## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Complete coverage on this [article to be updated](https://www.linkedin.com/in/mandeep-dhanoa).
+
 
 ## Configure Your Salesforce DX Project
 
