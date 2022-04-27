@@ -1,3 +1,11 @@
+
+
+
+https://user-images.githubusercontent.com/97949157/165515591-659d0ee5-af7d-4a87-85e7-08e2afc8cc6b.mov
+
+
+
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
